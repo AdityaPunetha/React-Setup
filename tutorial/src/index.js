@@ -3,8 +3,15 @@ import ReactDom from "react-dom";
 
 function Greeting() {
   return (
-    <div>
-      <h1>hello</h1>
+    <div onClick>
+      <h3>hello</h3>
+      <ul>
+        <li>
+          <a href="#">, hemlo</a>
+        </li>
+        <img src="" alt="" />
+        <input type="text" name="" id="" />
+      </ul>
     </div>
   );
 }
