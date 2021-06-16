@@ -3,24 +3,14 @@ import ReactDom from "react-dom";
 
 function Greeting() {
   return (
-    <div onClick>
-      <h3>hello</h3>
-      <ul>
-        <li>
-          <a href="#">, hemlo</a>
-        </li>
-        <img src="" alt="" />
-        <input type="text" name="" id="" />
-      </ul>
+    <div>
+      <Person />
+      <Message />
     </div>
   );
 }
-// const Greeting = () => {
-//   return React.createElement(
-//     "h1",
-//     {},
-//     React.createElement("h1", {}, "hello w")
-//   );
-// };
-
+const Person = () => <h2>aditya</h2>;
+const Message = () => {
+  return <p>para</p>;
+};
 ReactDom.render(<Greeting />, document.getElementById("root"));
