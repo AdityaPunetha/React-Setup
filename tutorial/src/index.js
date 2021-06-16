@@ -30,5 +30,9 @@ const Image = () => (
   />
 );
 const Title = () => <h1>The Psychology of Money</h1>;
-const Author = () => <h4>Morgan Housel </h4>;
+const Author = () => (
+  <h4 style={{ color: "#617d98", fontSize: "0.75rem", marginTop: "0.25rem" }}>
+    Morgan Housel{" "}
+  </h4>
+);
 ReactDom.render(<Booklist />, document.getElementById("root"));
