@@ -12,6 +12,11 @@ const books = [
     author: "Frances Hodgson Burnett",
     img: "https://m.media-amazon.com/images/I/81oZ2suDhdS._AC_UY218_.jpg",
   },
+  {
+    title: "Treasure Island",
+    author: "Robert Louis Stevenson ",
+    img: "https://m.media-amazon.com/images/I/819gepUWtdS._AC_UY218_.jpg",
+  },
 ];
 
 function Booklist() {
